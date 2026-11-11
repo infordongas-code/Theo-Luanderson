@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoMecânica - Serviços Automotivos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container header-container">
+            <h1 class="logo">Auto<span>Mecânica</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner principal -->
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <h2>Cuidado Profissional para o seu Veículo</h2>
+            <p>Manutenção, diagnóstico e reparos com garantia e transparência.</p>
+            <a href="#contato" class="btn">Agende um Orçamento</a>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="servicos container">
+        <h2>Nossos Serviços</h2>
+        <div class="grid-servicos">
+            <div class="card-servico">
+                <h3>Troca de Óleo e Filtros</h3>
+                <p>Manutenção preventiva essential para aumentar a vida útil do motor.</p>
+            </div>
+            <div class="card-servico">
+                <h3>Revisão de Freios</h3>
+                <p>Troca de pastilhas, discos e fluido de freio para sua segurança.</p>
+            </div>
+            <div class="card-servico">
+                <h3>Diagnóstico Eletrônico</h3>
+                <p>Scanner automotivo de última geração para identificar falhas com precisão.</p>
+            </div>
+            <div class="card-servico">
+                <h3>Alinhamento e Balanceamento</h3>
+                <p>Estabilidade e desgaste regular para os pneus do seu carro.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre nós -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2>Sobre a AutoMecânica</h2>
+            <p>Com anos de experiência no mercado, oferecemos serviços automotivos de alta qualidade com equipamentos modernos e equipe altamente qualificada.</p>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato container">
+        <h2>Fale Conosco / Orçamento</h2>
+        <form id="form-contato">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required placeholder="Seu nome completo">
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone / WhatsApp:</label>
+                <input type="tel" id="telefone" required placeholder="(00) 00000-0000">
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem / Serviço Desejado:</label>
+                <textarea id="mensagem" rows="4" required placeholder="Descreva o problema do veículo..."></textarea>
+            </div>
+            <button type="submit" class="btn">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 AutoMecânica. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
